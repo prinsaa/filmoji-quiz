@@ -150,7 +150,9 @@ const App = () => {
         Next
       </button>
 
-      <h2>Here's your score: {score}</h2>
+      <h2>
+        Here's your score: <span style={{ color: "#00A36C" }}>{score}</span>
+      </h2>
     </div>
   );
 };
